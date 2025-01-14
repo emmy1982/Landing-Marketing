@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Hurricane&family=Imperial+Script&family=Orbitron:wght@400..900&family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Syne:wght@400..800&family=Yatra+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Marketing</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-transparent py-5">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light" href="./views/clientes.html">NUESTROS CLIENTES</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light" href="./views/servivios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light" href="./views/proyectos.html">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light " href="./views/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="gallery">
+            <img src="./assets/img/marketing(2).jpg" alt="Imagen 1" class="galleryimg" width="900" height="700">
+            <img src="./assets/img/marketing(5).jpg" alt="Imagen 2" class="galleryimg" width="900" height="700">
+            <img src="./assets/img/marketing(8).jpg" alt="Imagen 3" class="galleryimg" width="900" height="700">
+            <img src="./assets/img/marketing(7).jpg" alt="Imagen 3" class="galleryimg" width="900" height="700">
+        </section>
+        <div class="container text-center mt-4  pb-5 containerTitle">
+            <div class="boxLogoImg">
+                <p class="logoImg">MD</p>
+            </div>
+            <a class="logo" href="#">
+                <h1>MARKETING</h1>
+            </a>
+            <h5 class="fs-4 mb-5 text-light">
+                IMPULSAMOS TU EXITO
+            </h5>
+            <a href="./views/contacto.html" class="btn button rounded-0">PONTE EN CONTACTO</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Card Hero -->
+
+        <section class="container containerUp">
+            <div class="row g-4 mx-auto w-100 justify-content-center cardsRow">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card rounded-0 bg-transparent border-0 shadow-lg">
+                        <img src="./assets/img/marketing(1).jpg" class="card-img rounded-0 imgHero"
+                            alt="imagen de empresa de marketing" width="900" height="700">
+                        <div class="card-body ">
+                            <h5 class="card-title fw-bold fs-3">Soporte Digital</h5>
+                            <p class="card-text">
+                                Desarrollamos estrategias personalizadas que conectan con tu audiencia ideal y generan
+                                resultados medibles.Ultimas tecnologias.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card rounded-0 bg-transparent border-0 shadow-lg">
+                        <img src="./assets/img/marketing(2).jpg" class="card-img-top rounded-0 imgHero"
+                            alt="imagen de empresa de marketing" width="900" height="700">
+                        <div class="card-body ">
+                            <h5 class="card-title  fw-bold fs-3">Experiencia</h5>
+                            <p class="card-text">
+                                Nuestro equipo de profesionales altamente capacitados , creatividad para impulsar el
+                                éxito
+                                de tu marca en el mundo digital. Sómos los mejores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card rounded-0 bg-transparent border-0 shadow-lg">
+                        <img src="./assets/img/marketing(5).jpg" class="card-img-top rounded-0 imgHero"
+                            alt="imagen de empresa de marketing" width="900" height="700">
+                        <div class="card-body ">
+                            <h5 class="card-title  fw-bold fs-3">Equipo</h5>
+                            <p class="card-text">
+                                Nuestro equipo combina talento, pasión y experiencia para crear soluciones innovadoras
+                                que
+                                impulsan el crecimiento de tu negocio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Presentation -->
+
+        <section class="container">
+            <div class="boxPresentation">
+                <h2>
+                    ¿Por qué elegirnos?
+                </h2>
+                <p>
+                    Somos una agencia de marketing digital que se especializa en la creación de estrategias de marketing
+                    digital para empresas de todos los tamaños. Nuestro equipo de expertos en marketing digital trabaja
+                    con
+                    cada cliente para desarrollar una estrategia de marketing digital personalizada que se adapte a sus
+                    necesidades y objetivos comerciales.
+                </p>
+            </div>
+            <div class="row align-items-center box-elegirnos">
+                <div class="col-4">
+                    <div class="row row-prensentation">
+                        <div class="col">
+                            <div class="boxImg imgBack1 box-img-left1">
+                                <img class="img-left1" src="./assets/img/marketing(6).jpg"
+                                    alt="Imagen de maeketin digital" width="900" height="700">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 pImg">
+                    <h3>
+                        <span class="number">01</span>Estrategias de marketing
+                    </h3>
+                    <p class="">
+                        Nuestro equipo de expertos en marketing digital trabaja con cada cliente para desarrollar una
+                        estrategia de marketing digital personalizada que se adapte a sus necesidades y objetivos
+                        comerciales.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center boxCenter">
+                <div class="col-8 pImg">
+                    <h3>
+                        <span class="number">02</span>Comomunicación efectiva
+                    </h3>
+                    <p class="">
+                        En esta era digital, la comunicación efectiva es clave para el éxito de cualquier empresa.
+                        Nuestro
+                        equipo de expertos en marketing digital se asegurará de que su mensaje llegue a su audiencia de
+                        la
+                        manera más efectiva posible.
+                    </p>
+                </div>
+                <div class="col-4 ">
+                    <div class="row">
+                        <div class="col">
+                            <div class="boxImgDer imgBack2 box-img-rigth">
+                                <img class="img-rigth" src="./assets/img/marketing(7).jpg"
+                                    alt="Imagen de maeketin digital" width="900" height="700">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center  box-elegirnos2">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col">
+                            <div class="boxImg imgBack3 box-img-left2">
+                                <img class="img-left2" src="./assets/img/marketing(8).jpg"
+                                    alt="Imagen de maeketin digital" width="900" height="700">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 pImg">
+                    <h3>
+                        <span class="number">03</span>Resultados inmediatos
+                    </h3>
+                    <p class="">
+                        Nuestro equipo de expertos en marketing digital se asegurará de que su mensaje llegue a su
+                        audiencia
+                        de la manera más efectiva posible.
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Proyectos -->
+
+        <section class="container contianer-poyect">
+            <div class="boxPresentation mb-5 pb-3">
+                <h2>Nuestros Proyectos</h2>
+                <p>Descubre cómo hemos ayudado a nuestros clientes a alcanzar sus objetivos digitales</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="project-card ">
+                        <img src="./assets/img/marketing(1).jpg" alt="Proyecto 1" class="img-fluid img-proyect">
+                        <div class="project-info py-4 px-4">
+                            <h3 class="mx-auto fs-2">Campaña Digital</h3>
+                            <p class="py-3">Estrategia completa de marketing digital para empresa retail</p>
+                            <a href="#" class="btn fs-5 button rounded-0 mx-auto w-100">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./assets/img/marketing(2).jpg" alt="Proyecto 2" class="img-fluid img-proyect">
+                        <div class="project-info py-4 px-4">
+                            <h3 class="mx-auto fs-2">Redes Sociales</h3>
+                            <p class="py-3">Gestión de redes sociales para marca de moda personal</p>
+                            <a href="#" class="btn fs-5 button rounded-0 mx-auto w-100">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./assets/img/marketing(5).jpg" alt="Proyecto 3" class="img-fluid img-proyect">
+                        <div class="project-info py-4 px-4">
+                            <h3 class="mx-auto fs-2">SEO & SEM</h3>
+                            <p class="py-3">Optimización y campaña PPC para e-commerce online</p>
+                            <a href="#" class="btn fs-5 button rounded-0 mx-auto w-100">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario -->
+
+        <section class="formulario">
+            <div class="container">
+                <div class="boxPresentation mb-5">
+                    <h2>Contáctanos</h2>
+                    <p>¿Listo para impulsar tu presencia digital? Escríbenos y te responderemos pronto</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form class="contact-form">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control fw-bold rounded-0" placeholder="Nombre"
+                                        required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control fw-bold rounded-0" placeholder="Email"
+                                        required>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control fw-bold rounded-0" placeholder="Asunto">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control fw-bold rounded-0" rows="6" placeholder="Mensaje"
+                                        required></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn button rounded-0 px-5 py-3 fs-5">Enviar
+                                        Mensaje</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="container">
+        <div class="row px-xl-5 py-5 border-top my-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Contactanos</h5>
+                <p class="mb-2 text-light"><i class="bi bi-geo-alt"></i> 123 Calle Principal, Ciudad</p>
+                <p class="mb-2 text-light"><i class="bi bi-envelope"></i> info@marketing.com</p>
+                <p class="mb-0 text-light"><i class="bi bi-telephone"></i> +012 345 67890</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Enlaces Rápidos</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"> Inicio</a>
+                    <a class="text-light mb-2" href="#"> Servicios</a>
+                    <a class="text-light mb-2" href="#">Proyectos</a>
+                    <a class="text-light" href="#"> Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Servicios</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"> Marketing Digital</a>
+                    <a class="text-light mb-2" href="#"> SEO</a>
+                    <a class="text-light mb-2" href="#"> Redes Sociales</a>
+                    <a class="text-light" href="#"> Diseño Web</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Newsletter</h5>
+                <form action="submit">
+                    <div class="form-group">
+                        <input type="email" class="form-control border-0 py-3" placeholder="Tu Email" required>
+                    </div>
+                    <div>
+                        <button class="btn button fs-4 rounded-0 btn-block border-0 py-2 mt-3" type="submit">Suscríbete
+                            Ahora</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <p class="text-light ">© 2025 Marketing Digital, Inc <br><br>Creado por <span>"DigiCode"</span></p>
+            </div>
+            <div class="col-md-4">
+                <ul class="nav justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-twitter-x fs-4"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-instagram fs-4"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-facebook fs-4"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

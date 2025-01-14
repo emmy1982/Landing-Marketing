@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Hurricane&family=Imperial+Script&family=Orbitron:wght@400..900&family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Syne:wght@400..800&family=Yatra+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Marketing</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-transparent py-5">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light active" aria-current="page" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light" href="./clientes.html">NUESTROS CLIENTES</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light" href="./servivios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light" href="./proyectos.html">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item  mx-4">
+                            <a class="nav-link text-light " href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+            <img src="../assets/img/marketing(7).jpg" alt="Imagen 3" class="galleryimg" width="900" height="700">
+        </section>
+        <div class="container text-center mt-4  pb-5 containerTitle">
+            <div class="boxLogoImg">
+                <p class="logoImg">MD</p>
+            </div>
+            <a class="logo" href="#">
+                <h1>MARKETING</h1>
+            </a>
+            <h5 class="fs-4 mb-5 text-light">
+                IMPULSAMOS TU EXITO
+            </h5>
+            <a href="#contact" class="btn button rounded-0">PONTE EN CONTACTO</a>
+        </div>
+    </header>
+
+    <main class="mainStandard">
+        <!-- Sección de Información de Contacto -->
+        <section class="container py-5">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="mb-2"  id="contact">Contactanos</h2>
+                    <p class="text-dark fs-5">Estamos aquí para impulsar tu presencia digital</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Formulario de Contacto -->
+                <div class="col-lg-7 mb-5">
+                    <div class="p-5 shadow-lg">
+                        <h3 class="text-dark mb-4 mx-auto" >Envíanos un mensaje</h3>
+                        <form>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control py-3" placeholder="Nombre" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control py-3" placeholder="Email" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control py-3" placeholder="Asunto" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control py-3" rows="5" placeholder="Mensaje" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn button rounded-0 py-3 px-5" type="submit">Enviar Mensaje</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Información de Contacto -->
+                <div class="col-lg-5">
+                    <div class="p-5  h-100">
+                        <h3 class="text-dark mb-4 mx-auto">Información de Contacto</h3>
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 disabled">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="text-dark">Ubicación</h5>
+                                <p class="text-dark mb-0">123 Calle Principal, Ciudad</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 disabled">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="text-dark">Email</h5>
+                                <p class="text-dark mb-0">info@marketing.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 disabled">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="text-dark">Teléfono</h5>
+                                <p class="text-dark mb-0">+012 345 67890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Mapa -->
+        <section class="container pb-5">
+            <h2 class="text-center m-5">Estamos Aquí</h2>
+            <div class="row">
+                <div class="col-12">
+                    <div class="border shadow-lg">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-0.000000!3d0.000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwMDAnMDAuMCJOIDDCsDAwJzAwLjAiVw!5e0!3m2!1ses!2ses!4v1234567890" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Horario de Atención -->
+        <section class="container pb-5">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h3 class="mx-auto text-dark mb-4">Horario de Atención</h3>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="text-dark">Lunes - Viernes:</span>
+                            <span class="text-dark">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="text-dark">Sábado:</span>
+                            <span class="text-dark">10:00 AM - 2:00 PM</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark">Domingo:</span>
+                            <span class="text-dark">Cerrado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                    <div class="p-5">
+                        <h3 class="mx-auto text-dark mb-4">Redes Sociales</h3>
+                        <div class="d-flex gap-3 justify-content-end">
+                            <a href="#" class="">
+                                <i class="fs-2 text-dark bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="">
+                                <i class="fs-2 text-dark bi bi-twitter-x"></i>
+                            </a>
+                            <a href="#" class="">
+                                <i class="fs-2 text-dark bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="">
+                                <i class="fs-2 text-dark bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <div class="row px-xl-5 py-5 border-top my-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Contactanos</h5>
+                <p class="mb-2 text-light"><i class="bi bi-geo-alt"></i> 123 Calle Principal, Ciudad</p>
+                <p class="mb-2 text-light"><i class="bi bi-envelope"></i> info@marketing.com</p>
+                <p class="mb-0 text-light"><i class="bi bi-telephone"></i> +012 345 67890</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Enlaces Rápidos</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"> Inicio</a>
+                    <a class="text-light mb-2" href="#"> Servicios</a>
+                    <a class="text-light mb-2" href="#">Proyectos</a>
+                    <a class="text-light" href="#"> Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Servicios</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"> Marketing Digital</a>
+                    <a class="text-light mb-2" href="#"> SEO</a>
+                    <a class="text-light mb-2" href="#"> Redes Sociales</a>
+                    <a class="text-light" href="#"> Diseño Web</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <h5 class="text-light mb-4 fs-3 fw-bold">Newsletter</h5>
+                <form action="submit">
+                    <div class="form-group">
+                        <input type="email" class="form-control border-0 py-3" placeholder="Tu Email" required>
+                    </div>
+                    <div>
+                        <button class="btn button fs-4 rounded-0 btn-block border-0 py-2 mt-3" type="submit">Suscríbete
+                            Ahora</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <p class="text-light ">© 2025 Marketing Digital, Inc <br><br>Creado por <span>"DigiCode"</span></p>
+            </div>
+            <div class="col-md-4">
+                <ul class="nav justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-twitter-x fs-4"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-instagram fs-4"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="#"><i class="bi bi-facebook fs-4"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
